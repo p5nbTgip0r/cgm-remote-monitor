@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     # if: github.ref == 'refs/heads/dev' && github.repository_owner == 'nightscout'
     env:
-      DOCKER_IMAGE: nightscout/cgm-remote-monitor
+      DOCKER_IMAGE: efeg22tkxn/cgm-remote-monitor
       PLATFORMS: linux/amd64,linux/arm64
     steps:
       - name: Set up QEMU
